@@ -324,3 +324,27 @@ footer {
 h3{
     font-size: 30px;
 }
+.explore-text {
+    display: inline-flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #d83627;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.explore-text i {
+    font-size: 24px;
+    margin-left: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.explore-text:hover {
+    color: #b02a1a;
+}
+
+.explore-text:hover i {
+    transform: translateY(5px);
+}
+
